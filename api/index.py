@@ -7,9 +7,9 @@ import os
 
 class GameInfo:
     def __init__(self):
-        self.TitleId: str = "TITLEID"
-        self.SecretKey: str = "PLAYFABSECRETKEY"
-        self.ApiKey: str = "APPCREDENTIALS"
+        self.TitleId: str = "138CF5"
+        self.SecretKey: str = "UER8FFEY5MAJGI5O9AJJHOWX9D4ITU66DGJ3JNQ3N6KXESAR34"
+        self.ApiKey: str = "OC|8726140780734309|d65b01a8f69779d741068d2fe755459c"
 
     def get_auth_headers(self):
         return {"content-type": "application/json", "X-SecretKey": self.SecretKey}
@@ -45,7 +45,7 @@ def return_function_json(data, funcname, funcparam={}):
 
 @app.route("/", methods=["POST", "GET"])
 def main():
-    return "thanks tictac"
+    return "thanks krazyboy (your so sigma)"
 
 
 @app.route("/api/PlayFabAuthentication", methods=["POST"])
@@ -332,7 +332,7 @@ def photon_authenticate_pcvr():
             json={"PlayFabId": user_id},
             headers={
                 "content-type": "application/json",
-                "X-SecretKey": "M495MK1SSXRNUR3WQHJI7818PCAU8WXJGSNSTC6K4W1CQZD8WS",
+                "X-SecretKey": "UER8FFEY5MAJGI5O9AJJHOWX9D4ITU66DGJ3JNQ3N6KXESAR34",
             },
         )
         response.raise_for_status()
