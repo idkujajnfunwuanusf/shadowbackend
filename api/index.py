@@ -332,7 +332,7 @@ def photon_authenticate_pcvr():
             json={"PlayFabId": user_id},
             headers={
                 "content-type": "application/json",
-                "X-SecretKey": "UER8FFEY5MAJGI5O9AJJHOWX9D4ITU66DGJ3JNQ3N6KXESAR34",
+                "X-SecretKey": "QMGJNBTU796EI638NQW18IARU49JGCPQACHA3OEHRIZAGWFPFP",
             },
         )
         response.raise_for_status()
