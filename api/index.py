@@ -7,8 +7,8 @@ import os
 
 class GameInfo:
     def __init__(self):
-        self.TitleId: str = "138CF5"
-        self.SecretKey: str = "UER8FFEY5MAJGI5O9AJJHOWX9D4ITU66DGJ3JNQ3N6KXESAR34"
+        self.TitleId: str = "8751E"
+        self.SecretKey: str = "QMGJNBTU796EI638NQW18IARU49JGCPQACHA3OEHRIZAGWFPFP"
         self.ApiKey: str = "OC|8726140780734309|d65b01a8f69779d741068d2fe755459c"
 
     def get_auth_headers(self):
